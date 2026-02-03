@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+import GitHubAvatar from '../components/GitHubAvatar.astro';
+
+const peopleByYear = [
+  {
+    year: 2026,
+    people: ["winstonsung", "cantpr09ram", "GGQQmax"],
+  },
+  {
+    year: 2025,
+     people: ["winstonsung", "cantpr09ram", "GGQQmax"],
+  },
+];
+---
+
+<Layout>
+  <main class="people-page relative min-h-screen text-slate-900 dark:text-slate-100">
+    <div class="relative mx-auto flex max-w-6xl flex-col gap-16 px-6 py-16">
+        <h1>PEOPLES</h1>
+      {peopleByYear.map((group) => (
+        <section class="flex flex-col gap-8">
+          <header class="flex flex-col gap-6">
+            <div class="flex items-center gap-3 text-xs uppercase tracking-[0.4em] text-slate-500 dark:text-slate-400">
+              <h3 class="text-4xl font-semibold text-slate-900 dark:text-slate-50 sm:text-5xl">
+                {group.year}
+              </h3>
+            </div>
+          </header>
+
+          <div
+            class="grid gap-[2px] sm:[grid-template-columns:repeat(5,minmax(0,1fr))] lg:[grid-template-columns:repeat(10,minmax(0,1fr))]"
+          >
+            {group.people.map((person, index) => (
+                <GitHubAvatar
+                  id={person}
+                  size={96}
+                  alt={`GitHub avatar ${index + 1}`}
+                />
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </main>
+</Layout>
+
+<style is:global>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Space+Grotesk:wght@400;500;600&display=swap');
+
+  .people-page {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+  }
+
+  .people-page h1 {
+    font-family: 'Fraunces', 'Space Grotesk', serif;
+  }
+</style>

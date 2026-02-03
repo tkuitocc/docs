@@ -1,3 +1,9 @@
+---
+import '../styles/global.css';
+import Footer from '../components/Footer.astro';
+import Nav from '../components/Nav.astro';
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -6,10 +12,33 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>TKUITOCC</title>
 	</head>
-	<body>
-		<slot />
+	<body class="antialiased tracking-tight bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+		<div class="min-h-screen flex flex-col justify-between pt-10 md:pt-8 p-8">
+			<Nav />
+			<main class="mx-auto w-full">
+				<slot />
+			</main>
+			<Footer />
+		</div>
+		<script is:inline>
+			const root = document.documentElement;
+			const storedTheme = localStorage.getItem('theme');
+			const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
+				root.classList.add('dark');
+			} else {
+				root.classList.remove('dark');
+			}
+			const toggleButton = document.getElementById('theme-toggle');
+			if (toggleButton) {
+				toggleButton.addEventListener('click', () => {
+					root.classList.toggle('dark');
+					localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
+				});
+			}
+		</script>
 	</body>
 </html>
 

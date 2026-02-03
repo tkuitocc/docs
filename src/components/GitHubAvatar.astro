@@ -1,0 +1,43 @@
+---
+interface Props {
+    /** GitHub username or user ID */
+    id: string | number;
+    /** Size of the avatar in pixels */
+    size?: number;
+    /** Additional CSS classes */
+    className?: string;
+    /** Alt text for the image */
+    alt?: string;
+}
+
+const { id, size = 120, className, alt } = Astro.props;
+
+// GitHub provides avatar URLs in two formats:
+// - By username: https://github.com/<username>.png
+// - By user ID: https://avatars.githubusercontent.com/u/<id>
+const avatarUrl =
+    typeof id === "number"
+        ? `https://avatars.githubusercontent.com/u/${id}`
+        : `https://github.com/${id}.png`;
+
+const altText = alt || `GitHub profile picture for ${id}`;
+---
+
+<a
+    class:list={["relative overflow-hidden rounded-full", className]}
+    style={{ width: `${size}px`, height: `${size}px` }}
+    href={`https://github.com/${id}`}
+    target="_blank"
+    rel="noreferrer"
+    aria-label={`Open GitHub profile for ${id}`}
+>
+    <img
+        src={avatarUrl}
+        alt={altText}
+        width={size}
+        height={size}
+        class="ring-4 object-cover w-full h-full"
+        loading="lazy"
+        decoding="async"
+    />
+</a>
