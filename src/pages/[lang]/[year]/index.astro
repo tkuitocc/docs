@@ -1,0 +1,43 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const supportedLangs = ['en', 'zh-hant'];
+  const currentYear = new Date().getFullYear();
+  const supportedYears = [String(currentYear), String(currentYear - 1)];
+
+  return supportedLangs.flatMap((lang) =>
+    supportedYears.map((year) => ({ params: { lang, year } }))
+  );
+}
+
+const CURRENT_YEAR = new Date().getFullYear();
+const { lang, year } = Astro.params;
+const yearLabel = year ?? String(CURRENT_YEAR);
+const isZhHant = (lang ?? '').toLowerCase() === 'zh-hant';
+
+const copy = isZhHant
+  ? {
+      title: '總覽',
+      subtitle: '社群年度概覽',
+      metaTitle: `TKUITOCC ${yearLabel} 總覽`,
+      description: '這裡會放上年度重點、最新消息與活動。',
+    }
+  : {
+      title: 'Overview',
+      subtitle: 'Community annual overview',
+      metaTitle: `TKUITOCC ${yearLabel} Overview`,
+      description: 'This is where annual highlights, news, and events will live.',
+    };
+---
+
+<Layout lang={isZhHant ? 'zh-hant' : 'en'} title={copy.metaTitle}>
+  <section class="relative mx-auto flex min-h-[60vh] w-full max-w-6xl flex-col justify-center gap-6 px-6 py-20">
+    <p class="text-xs uppercase tracking-[0.4em] text-slate-500 dark:text-slate-400">TKUITOCC</p>
+    <h1 class="text-4xl font-semibold text-slate-900 dark:text-slate-50 sm:text-5xl">
+      {copy.title} · {yearLabel}
+    </h1>
+    <p class="max-w-2xl text-base text-slate-600 dark:text-slate-300">{copy.subtitle}</p>
+    <p class="max-w-2xl text-sm text-slate-500 dark:text-slate-400">{copy.description}</p>
+  </section>
+</Layout>

@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const supportedLangs = ['en', 'zh-hant'];
+  return supportedLangs.map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const normalizedLang = (lang ?? 'en').toLowerCase();
+const isZhHant = normalizedLang === 'zh-hant';
+const currentYear = new Date().getFullYear();
+const yearPath = `/${normalizedLang}/${currentYear}`;
+
+const copy = isZhHant
+  ? {
+      title: '總覽',
+      subtitle: '社群年度概覽',
+      metaTitle: `TKUITOCC ${currentYear} 總覽`,
+      description: '這裡會放上年度重點、最新消息與活動。',
+      cta: `前往 ${currentYear} 年`,
+    }
+  : {
+      title: 'Overview',
+      subtitle: 'Community annual overview',
+      metaTitle: `TKUITOCC ${currentYear} Overview`,
+      description: 'This is where annual highlights, news, and events will live.',
+      cta: `Go to ${currentYear}`,
+    };
+---
+
+<Layout lang={isZhHant ? 'zh-hant' : 'en'} title={copy.metaTitle}>
+  <section class="relative mx-auto flex min-h-[60vh] w-full max-w-6xl flex-col justify-center gap-6 px-6 py-20">
+    <p class="text-xs uppercase tracking-[0.4em] text-slate-500 dark:text-slate-400">TKUITOCC</p>
+    <h1 class="text-4xl font-semibold text-slate-900 dark:text-slate-50 sm:text-5xl">
+      {copy.title} · {currentYear}
+    </h1>
+    <p class="max-w-2xl text-base text-slate-600 dark:text-slate-300">{copy.subtitle}</p>
+    <p class="max-w-2xl text-sm text-slate-500 dark:text-slate-400">{copy.description}</p>
+    <div>
+      <a
+        class="inline-flex items-center gap-2 rounded-full border border-slate-200/70 bg-white/90 px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-slate-700 shadow-sm shadow-slate-200/40 transition hover:border-slate-300 hover:text-slate-900 dark:border-white/10 dark:bg-slate-900/80 dark:text-slate-200 dark:shadow-black/30"
+        href={yearPath}
+      >
+        {copy.cta}
+      </a>
+    </div>
+  </section>
+</Layout>
