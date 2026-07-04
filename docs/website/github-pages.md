@@ -12,6 +12,6 @@ sidebar_position: 7
 
 請到**倉庫**的設定，pages，並調整設定值為以下:
 
-![](https://raw.githubusercontent.com/SCAICT/website-data/main/img/tutorial-pages.webp)
+![](https://raw.githubusercontent.com/TKUITOCC/website-data/main/img/tutorial-pages.webp)
 
 記得點選儲存。每次提交就會自動部署，需等待約1分鐘左右。

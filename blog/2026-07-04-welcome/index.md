@@ -1,7 +1,7 @@
 ---
-slug: welcome
+slug: welcome-2026-07-04
 title: Welcome
-authors: [elvismao]
+authors: [GGQQmax, elvismao]
 tags: [hello]
 ---
 這是測試 blog

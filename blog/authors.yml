@@ -1,16 +1,29 @@
 elvismao:
   name: 毛哥EM
-  title: 第3屆資訊組組長
+  title: 第3屆資訊組組長 FROM SCAICT
   url: https://github.com/Edit-Mr
   image_url: https://github.com/Edit-Mr.png
 
 iach526:
   name: Each Chen
-  title: 第3屆資訊組組員
+  title: 第3屆資訊組組員 FROM SCAICT
   url: https://github.com/iach526526
   image_url: https://github.com/iach526526.png
+
 SCAICT:
   name: SCAICT
   title: 中電會
   url: https://github.com/SCAICT
   image_url: https://github.com/SCAICT.png
+
+TKUITOCC:
+  name: TKUITOCC
+  title: 淡江大學資訊科技及開放文化社群
+  url: https://github.com/TKUITOCC
+  image_url: https://github.com/TKUITOCC.png
+
+GGQQmax:
+  name: GGQQmax
+  title: ITOCC 成員
+  url: https://github.com/GGQQmax
+  image_url: https://github.com/GGQQmax.png

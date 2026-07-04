@@ -10,19 +10,19 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "中電會 SCAICT 說明文件",
-    tagline: "中電會的大小專案",
-    favicon: "https://scaict.org/src/img/favicon.ico",
+    title: "淡江大學資訊科技及開放文化社群 TKUITOCC 說明文件",
+    tagline: "TKUITOCC的大小專案",
+    favicon: "https://tkuitocc.github.io/src/img/favicon.ico",
 
     // Set the production url of your site here
-    url: "https://scaict.github.io",
+    url: "https://tkuitocc.github.io",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: "/docs/",
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: "SCAICT", // Usually your GitHub org/user name.
+    organizationName: "TKUITOCC", // Usually your GitHub org/user name.
     trailingSlash: false,
     projectName: "docs", // Usually your repo name.
     deploymentBranch:"gh-pages",
@@ -53,13 +53,13 @@ const config = {
                     routeBasePath: '/',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: "https://github.com/SCAICT/docs/blob/main/",
+                    editUrl: "https://github.com/TKUITOCC/docs/blob/main/",
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: "https://github.com/SCAICT/docs/blob/main/",
+                    editUrl: "https://github.com/TKUITOCC/docs/blob/main/",
                 },
                 theme: {
                     customCss: "./src/css/custom.css",
@@ -72,12 +72,12 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
-            image: "img/SCAICT_social-card.png",
+            image: "img/TKUITOCC_social-card.png",
             navbar: {
-                title: "SCAICT 說明文件",
+                title: "TKUITOCC 說明文件",
                 logo: {
-                    alt: "SCAICT Logo",
-                    src: "https://scaict.org/src/img/logo.svg",
+                    alt: "TKUITOCC Logo",
+                    src: "https://avatars.githubusercontent.com/u/171154720?s=200&v=4",
                 },
                 items: [
                     {
@@ -88,7 +88,7 @@ const config = {
                     },
                     { to: "/blog", label: "部落格", position: "left" },
                     {
-                        href: "https://github.com/SCAICT/docs",
+                        href: "https://github.com/tkuitocc/docs",
                         label: "GitHub",
                         position: "right",
                     },
@@ -111,15 +111,15 @@ const config = {
                         items: [
                             {
                                 label: "官網",
-                                href: "https://scaict.org/",
+                                href: "https://tkuitocc.github.io",
                             },
                             {
                                 label: "Discord",
-                                href: "https://dc.scaict.org/",
+                                href: "https://discord.com/invite/XQY8K3nz2a",
                             },
                             {
                                 label: "Instagram",
-                                href: "https://www.instagram.com/scaict.tw/",
+                                href: "https://www.instagram.com/tkuitocc",
                             },
                         ],
                     },
@@ -132,12 +132,12 @@ const config = {
                             },
                             {
                                 label: "GitHub",
-                                href: "https://github.com/SCAICT",
+                                href: "https://github.com/TKUITOCC",
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} SCAICT. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} TKUITOCC. Built with Docusaurus.`,
             },
             prism: {
                 theme: prismThemes.github,

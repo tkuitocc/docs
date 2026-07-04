@@ -2,14 +2,14 @@
 sidebar_position: 1
 ---
 
-# 中電會網站維護指引
+# 淡江大學資訊科技及開放文化社群網站維護指引
 
 <div>
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/SCAICT/website-data/.github%2Fworkflows%2Fevents.yml?label=公告部署&style=flat-square) ![Workflow](https://img.shields.io/github/deployments/SCAICT/Website/production?label=前端部署&style=flat-square) ![code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square&label=格式化風格)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/tkuitocc/website-data/.github%2Fworkflows%2Fevents.yml?label=公告部署&style=flat-square) ![Workflow](https://img.shields.io/github/deployments/tkuitocc/Website/production?label=前端部署&style=flat-square) ![code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square&label=格式化風格)
 
 </div>
 
-> 網址: [scaict.org](https://scaict.org)
+> 網址: [tkuitocc.github.io](https://tkuitocc.github.io)
 
 ## 基本操作
 

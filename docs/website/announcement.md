@@ -12,20 +12,20 @@ sidebar_position: 5
 * 變更介紹文字及目標
 * 變更社群連結
 
-以下中電會網站資料請至[website-data](https://github.com/SCAICT/website-data)編輯
+以下ITOCC網站資料請至[website-data](https://github.com/TKUITOCC/website-data)編輯
 
 * 變更首頁 LCD 畫面公告
 * 新增/編輯活動
 
 ## 如何新增公告?
 
-> 以下操作皆在 [website-data](https://github.com/SCAICT/website-data)
+> 以下操作皆在 [website-data](https://github.com/TKUITOCC/website-data)
 
 ### 首頁公告
 
-![](https://raw.githubusercontent.com/SCAICT/website-data/main/img/home%20boolean.png)
+![](https://raw.githubusercontent.com/TKUITOCC/website-data/main/img/home%20boolean.png)
 
-請編輯 [home.json](https://github.com/SCAICT/website-data/blob/main/home.json) 檔案的公告。
+請編輯 [home.json](https://github.com/TKUITOCC/website-data/blob/main/home.json) 檔案的公告。
 
 ```json
 {
@@ -38,7 +38,7 @@ sidebar_position: 5
 
 ### 活動
 
-請以**完全相同格式**新增活動至 [events.md](https://github.com/SCAICT/website-data/blob/main/events.md) 檔案。沒有長度限制，過期活動需手動移除。
+請以**完全相同格式**新增活動至 [events.md](https://github.com/TKUITOCC/website-data/blob/main/events.md) 檔案。沒有長度限制，過期活動需手動移除。
 
 ```markdown
 # 中電會聯合迎新

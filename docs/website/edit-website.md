@@ -34,7 +34,7 @@ _那拜託不要亂動_
 
 ### 格式化
 
-建議使用 [Prettier](https://prettier.io/) 格式化代碼。以下為建議設定:
+建議使用 Upstream 的 [Prettier](https://prettier.io/) 作為格式化代碼。以下為建議設定:
 
 ```json
 {
