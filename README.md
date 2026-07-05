@@ -1,11 +1,8 @@
-# 中電會 第3屆專案開發說明文件
+#  ITOCC 說明文件
+
+[Upstream](https://github.com/SCAICT/docs)
 
 ![alt text](./static/img/index-demo.png)
-
-> start at 2024-07-26
-
-為了不要被第4屆罵說第3屆學長伺服器設後不理，撰寫了這份說明文件。
-目前網站內有兩大主題：
 
 ## Documentation
 
