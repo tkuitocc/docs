@@ -77,7 +77,7 @@ const config = {
                 title: "TKUITOCC 說明文件",
                 logo: {
                     alt: "TKUITOCC Logo",
-                    src: "https://avatars.githubusercontent.com/u/171154720?s=200&v=4",
+                    src: "https://github.com/TKUITOCC.png",
                 },
                 items: [
                     {
@@ -87,6 +87,7 @@ const config = {
                         label: "說明文件",
                     },
                     { to: "/blog", label: "部落格", position: "left" },
+                    { to: "/docs/project/status", label: "專案狀態", position: "left" },
                     {
                         href: "https://github.com/tkuitocc/docs",
                         label: "GitHub",
