@@ -61,6 +61,7 @@
 
 * Discord server: <https://discord.com/invite/XQY8K3nz2a>
 * Telegram group: <https://t.me/TKUOSC>
+* LinkedIn Page: <https://www.linkedin.com/company/tkuitocc>
 * Facebook Page: <https://www.facebook.com/tkuitocc>
 * Instagram: <https://www.instagram.com/tkuitocc>
 * Threads: <https://www.threads.com/@tkuitocc>

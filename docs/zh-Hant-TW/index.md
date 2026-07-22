@@ -61,6 +61,7 @@
 
 * Discord伺服器： <https://discord.com/invite/XQY8K3nz2a>
 * Telegram群組： <https://t.me/TKUOSC>
+* LinkedIn專頁： <https://www.linkedin.com/company/tkuitocc>
 * Facebook粉絲專頁： <https://www.facebook.com/tkuitocc>
 * Instagram： <https://www.instagram.com/tkuitocc>
 * Threads: <https://www.threads.com/@tkuitocc>
