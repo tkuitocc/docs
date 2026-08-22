@@ -50,6 +50,104 @@
 </table>
 </div>
 
+<div class="table-wrapper" style="overflow-x: auto;">
+<table class="wikitable">
+<thead>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td><strong>前期餘額</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td><strong>本期收入合計</strong></td>
+<td>TWD</td>
+<td style="text-align: right;">+ 0</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td><strong>本期支出合計</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">- 0</td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><strong>本期結餘</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+</tfoot>
+</table>
+</div>
+
 ## 2024年12月財務收支報表
 
 <div class="table-wrapper" style="overflow-x: auto;">
@@ -97,6 +195,104 @@
 <th colspan="2">本期結餘</th>
 <td style="text-align: right;">TWD 0</td>
 <td colspan="4"></td>
+</tr>
+</tfoot>
+</table>
+</div>
+
+<div class="table-wrapper" style="overflow-x: auto;">
+<table class="wikitable">
+<thead>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td><strong>前期餘額</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td><strong>本期收入合計</strong></td>
+<td>TWD</td>
+<td style="text-align: right;">+ 0</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td><strong>本期支出合計</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">- 0</td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><strong>本期結餘</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
 </tr>
 </tfoot>
 </table>
@@ -154,6 +350,104 @@
 </table>
 </div>
 
+<div class="table-wrapper" style="overflow-x: auto;">
+<table class="wikitable">
+<thead>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td><strong>前期餘額</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td><strong>本期收入合計</strong></td>
+<td>TWD</td>
+<td style="text-align: right;">+ 0</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td><strong>本期支出合計</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">- 0</td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><strong>本期結餘</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+</tfoot>
+</table>
+</div>
+
 ## 2024年10月財務收支報表
 
 <div class="table-wrapper" style="overflow-x: auto;">
@@ -201,6 +495,104 @@
 <th colspan="2">本期結餘</th>
 <td style="text-align: right;">TWD 0</td>
 <td colspan="4"></td>
+</tr>
+</tfoot>
+</table>
+</div>
+
+<div class="table-wrapper" style="overflow-x: auto;">
+<table class="wikitable">
+<thead>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td><strong>前期餘額</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th>項次</th>
+<th>日期</th>
+<th>項目</th>
+<th colspan="2">收入</th>
+<th colspan="2">支出</th>
+<th colspan="2">餘額</th>
+<th>備註</th>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td><strong>本期收入合計</strong></td>
+<td>TWD</td>
+<td style="text-align: right;">+ 0</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: right;">&nbsp;</td>
+<td></td>
+<td><strong>本期支出合計</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">- 0</td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><strong>本期結餘</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
 </tr>
 </tfoot>
 </table>
