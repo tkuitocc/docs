@@ -94,6 +94,30 @@
 <th>備註</th>
 </tr>
 <tr>
+<td style="text-align: right;">1.</td>
+<td></td>
+<td>贊助</td>
+<td>TWD</td>
+<td style="text-align: right;">+ 453</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: right;">2.</td>
+<td></td>
+<td>活動費用</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">- 453</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td></td>
+</tr>
+<tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
 <td></td>
@@ -121,9 +145,9 @@
 <td></td>
 <td><strong>本期合計</strong></td>
 <td>TWD</td>
-<td style="text-align: right;">+ 0</td>
+<td style="text-align: right;">+ 453</td>
 <td>TWD</td>
-<td style="text-align: right;">- 0</td>
+<td style="text-align: right;">- 453</td>
 <td></td>
 <td style="text-align: right;"></td>
 <td></td>
@@ -248,6 +272,30 @@
 <th>備註</th>
 </tr>
 <tr>
+<td style="text-align: right;">1.1</td>
+<td>2025-12-08</td>
+<td>Winston Sung贊助2025年第4次社群大會：膳食費</td>
+<td>TWD</td>
+<td style="text-align: right;">+ 453</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">453</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: right;">2.1</td>
+<td>2025-12-08</td>
+<td>2025年第4次社群大會：膳食費</td>
+<td></td>
+<td style="text-align: right;"></td>
+<td>TWD</td>
+<td style="text-align: right;">- 453</td>
+<td>TWD</td>
+<td style="text-align: right;">0</td>
+<td></td>
+</tr>
+<tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
 <td></td>
@@ -275,9 +323,9 @@
 <td></td>
 <td><strong>本期合計</strong></td>
 <td>TWD</td>
-<td style="text-align: right;">+ 0</td>
+<td style="text-align: right;">+ 453</td>
 <td>TWD</td>
-<td style="text-align: right;">- 0</td>
+<td style="text-align: right;">- 453</td>
 <td></td>
 <td style="text-align: right;"></td>
 <td></td>
