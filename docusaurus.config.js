@@ -117,7 +117,6 @@ const config = {
                 ],
             },
             footer: {
-                style: "dark",
                 links: [
                     {
                         title: "探索更多",
