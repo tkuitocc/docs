@@ -1,20 +1,14 @@
-#  ITOCC 說明文件
+# TKUITOCC 官網、說明文件、部落格
 
 [Upstream](https://github.com/SCAICT/docs)
 
-![alt text](./static/img/index-demo.png)
-
 ## Documentation
 
-有關中電會的大小專案使用方法和維護須知
-
-![alt text](./static/img/doc-demo.png)
+有關大小專案使用方法和維護須知
 
 ## Blog
 
 研究成果、教學和大事記
-
-![alt text](./static/img/blog-demo.png)
 
 ## 本地開發
 
