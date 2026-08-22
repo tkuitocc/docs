@@ -119,25 +119,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -285,25 +273,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -435,25 +411,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -585,25 +549,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -735,25 +687,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -885,25 +825,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -1035,25 +963,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -1185,25 +1101,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -1335,25 +1239,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -1485,25 +1377,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -1635,25 +1515,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -1785,25 +1653,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
@@ -1935,25 +1791,13 @@
 <tr>
 <td style="text-align: right;">&nbsp;</td>
 <td></td>
-<td><strong>本期收入合計</strong></td>
+<td><strong>本期合計</strong></td>
 <td>TWD</td>
 <td style="text-align: right;">+ 0</td>
-<td></td>
-<td style="text-align: right;"></td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
-<td></td>
-</tr>
-<tr>
-<td style="text-align: right;">&nbsp;</td>
-<td></td>
-<td><strong>本期支出合計</strong></td>
-<td></td>
-<td style="text-align: right;"></td>
 <td>TWD</td>
 <td style="text-align: right;">- 0</td>
-<td>TWD</td>
-<td style="text-align: right;">0</td>
+<td></td>
+<td style="text-align: right;"></td>
 <td></td>
 </tr>
 <tr>
