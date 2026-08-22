@@ -10,9 +10,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "淡江大學資訊科技及開放文化社群 TKUITOCC 說明文件",
-    tagline: "TKUITOCC的大小專案",
-    favicon: "https://tkuitocc.github.io/src/img/favicon.ico",
+    title: "TKUITOCC 淡江大學資訊科技及開放文化社群",
+    tagline: "Tamkang University Information Technology and Open Culture Community",
+    favicon: "https://tkuitocc.github.io/favicon.png",
 
     // Set the production url of your site here
     url: "https://tkuitocc.github.io",
@@ -22,7 +22,7 @@ const config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: "TKUITOCC", // Usually your GitHub org/user name.
+    organizationName: "tkuitocc", // Usually your GitHub org/user name.
     trailingSlash: false,
     projectName: "docs", // Usually your repo name.
     deploymentBranch:"gh-pages",
@@ -30,9 +30,10 @@ const config = {
     onBrokenLinks: "throw",
 
     markdown: {
+        mermaid: true,
         hooks: {
             onBrokenMarkdownLinks: "warn",
-        }
+        },
     },
 
     // Even if you don't use internationalization, you can use this field to set
@@ -40,7 +41,14 @@ const config = {
     // may want to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: "zh-Hant",
-        locales: ["zh-Hant"],
+        locales: [
+            "zh-Hant"
+        ],
+        localeConfigs: {
+            "zh-Hant": {
+                htmlLang: "zh-Hant-TW",
+            },
+        },
     },
 
     presets: [
@@ -53,13 +61,13 @@ const config = {
                     routeBasePath: '/',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: "https://github.com/TKUITOCC/docs/blob/main/",
+                    editUrl: "https://github.com/tkuitocc/docs/blob/main/",
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: "https://github.com/TKUITOCC/docs/blob/main/",
+                    editUrl: "https://github.com/tkuitocc/docs/blob/main/",
                 },
                 theme: {
                     customCss: "./src/css/custom.css",
@@ -74,20 +82,33 @@ const config = {
             // Replace with your project's social card
             image: "img/TKUITOCC_social-card.png",
             navbar: {
-                title: "TKUITOCC 說明文件",
+                title: "TKUITOCC 淡江大學資訊科技及開放文化社群",
                 logo: {
-                    alt: "TKUITOCC Logo",
-                    src: "https://github.com/TKUITOCC.png",
+                    alt: "TKUITOCC logo",
+                    src: "https://github.com/tkuitocc.png",
                 },
                 items: [
+                    {
+                        to: "/",
+                        label: "官方網站",
+                        position: "left",
+                    },
                     {
                         type: "docSidebar",
                         sidebarId: "tutorialSidebar",
                         position: "left",
                         label: "說明文件",
                     },
-                    { to: "/blog", label: "部落格", position: "left" },
-                    { to: "/docs/project/status", label: "專案狀態", position: "left" },
+                    {
+                        to: "/blog",
+                        label: "部落格",
+                        position: "left",
+                    },
+                    {
+                        to: "/docs/project/status",
+                        label: "專案狀態",
+                        position: "left",
+                    },
                     {
                         href: "https://github.com/tkuitocc/docs",
                         label: "GitHub",
@@ -99,46 +120,74 @@ const config = {
                 style: "dark",
                 links: [
                     {
-                        title: "說明文件",
+                        title: "探索更多",
                         items: [
                             {
-                                label: "Tutorial",
+                                label: "官方網站",
+                                to: "/docs/",
+                            },
+                            {
+                                label: "說明文件",
                                 to: "/docs/intro",
+                            },
+                            {
+                                label: "部落格",
+                                to: "/docs/blog/",
+                            },
+                            {
+                                label: "GitHub",
+                                to: "https://github.com/tkuitocc",
+                            },
+                            {
+                                label: "TKU Wiki 淡江人共筆網",
+                                to: "https://tku.miraheze.org/wiki/zh-Hant/首頁",
+                            },
+                            {
+                                label: "Dauphin iOS應用程式",
+                                to: "https://testflight.apple.com/join/D3K3B9pX",
                             },
                         ],
                     },
                     {
-                        title: "Community",
+                        title: "聯絡我們",
                         items: [
                             {
-                                label: "官網",
-                                href: "https://tkuitocc.github.io",
+                                label: "電子郵件",
+                                href: "mailto:tkuitocc@gmail.com",
                             },
                             {
                                 label: "Discord",
                                 href: "https://discord.com/invite/XQY8K3nz2a",
                             },
                             {
-                                label: "Instagram",
-                                href: "https://www.instagram.com/tkuitocc",
+                                label: "Telegram",
+                                href: "https://t.me/TKUOSC",
                             },
                         ],
                     },
                     {
-                        title: "More",
+                        title: "關注我們",
                         items: [
                             {
-                                label: "Blog",
-                                to: "/blog",
+                                label: "LinkedIn",
+                                href: "https://www.linkedin.com/company/tkuitocc",
                             },
                             {
-                                label: "GitHub",
-                                href: "https://github.com/TKUITOCC",
+                                label: "Facebook",
+                                href: "https://www.facebook.com/tkuitocc",
+                            },
+                            {
+                                label: "Instagram",
+                                href: "https://www.instagram.com/tkuitocc",
+                            },
+                            {
+                                label: "Threads",
+                                href: "https://www.threads.com/@tkuitocc",
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} TKUITOCC. Built with Docusaurus.`,
+                copyright: `Copyright © 2024-${new Date().getFullYear()} TKUITOCC.<br />Community content is available under the Creative Commons Zero v1.0 Universal (CC0) license; additional terms may apply.<br />Built with Docusaurus.`,
             },
             prism: {
                 theme: prismThemes.github,
@@ -150,9 +199,6 @@ const config = {
                 respectPrefersColorScheme: true,
             },
         }),
-    markdown: {
-        mermaid: true,
-    },
     themes: ['@docusaurus/theme-mermaid'],
 };
 
