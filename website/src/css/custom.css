@@ -370,44 +370,32 @@ code {
     display: none;
 }
 
-h1,
+h1:not( .hero__title ),
 h2,
 h3,
 h4,
 h5,
 h6 {
     display: flow-root;
-    margin: 0;
     border: 0;
-    padding: 0;
-    padding-top: 0.5em;
-    padding-bottom: 0.17em;
     word-break: break-word;
     font: inherit;
     font-weight: bold;
     color: inherit;
 }
 
-h1,
+h1:not( .hero__title ),
 h2 {
-    margin-bottom: 0.6em;
     border-bottom: 1px solid var( --border-color-base, #a2a9b1 );
-}
-
-h3,
-h4,
-h5 {
-    margin-bottom: 0.3em;
-}
-
-h1 {
-    font-size: 188%;
     font-weight: normal;
+}
+
+h1:not( .hero__title ) {
+    font-size: 188%;
 }
 
 h2 {
     font-size: 150%;
-    font-weight: normal;
 }
 
 h3 {
@@ -435,6 +423,11 @@ h6 {
 
 .overflow-x-wrapper {
     overflow-x: auto;
+}
+
+.wikitable thead,
+.wikitable tr:nth-child( 2n ) {
+    background-color: transparent;
 }
 
 /** wikimedia.wikitable */
