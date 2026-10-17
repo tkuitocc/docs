@@ -45,6 +45,7 @@ sidebar_label: zh-Hant | 華語 - 傳統漢字
 
 ## 近期專案
 
+* 淡江校園通「Dauphin」Android應用程式
 * 淡江校園通「Dauphin」iOS應用程式
 * 淡江校園通「iCampusPass」Android應用程式
 * 模擬排課系統「AZQUERYSUCKS」
