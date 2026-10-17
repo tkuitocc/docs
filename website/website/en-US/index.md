@@ -21,7 +21,7 @@ sidebar_label: en | English
 
 ## Recent activities
 
-### General Assembly
+### General Assembly meetings
 
 #### [已結束] 2026-06-22：2026年第2次社群大會
 
@@ -36,7 +36,7 @@ sidebar_label: en | English
 * 時間：2026-03-09 12:00 – 14:00（UTC+8）
 * 地點：紹謨紀念體育館SG144聯合社團辦公室
 
-### 社群聚
+### Community gatherings
 
 #### [已結束] 2026-01-05：2026年第1次社群聚
 
