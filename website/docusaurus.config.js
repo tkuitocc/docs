@@ -101,12 +101,12 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
-            image: "img/TKUITOCC_social-card.png",
+            image: "/images/TKUITOCC_social_card.png",
             navbar: {
                 title: "TKUITOCC 淡江大學資訊科技及開放文化社群",
                 logo: {
                     alt: "TKUITOCC logo",
-                    src: "https://github.com/tkuitocc.png",
+                    src: "/resources/assets/TKUITOCC_logo.png",
                 },
                 items: [
                     {
