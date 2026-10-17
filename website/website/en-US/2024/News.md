@@ -1,3 +1,7 @@
+---
+sidebar_label: News
+---
+
 # 2024 news (1st-term)
 
 ## [公告] 第2屆（2025年度）理監事名單

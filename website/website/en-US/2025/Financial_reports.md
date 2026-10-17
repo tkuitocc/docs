@@ -1,3 +1,7 @@
+---
+sidebar_label: Financial reports
+---
+
 # 2025 financial report (2nd-term)
 
 <div class="table-wrapper" style="overflow-x: auto;">

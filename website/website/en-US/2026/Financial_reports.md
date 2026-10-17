@@ -1,3 +1,7 @@
+---
+sidebar_label: Financial reports
+---
+
 # 2026 financial report (3rd-term)
 
 <div class="table-wrapper" style="overflow-x: auto;">

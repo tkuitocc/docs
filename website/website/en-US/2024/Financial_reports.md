@@ -1,3 +1,7 @@
+---
+sidebar_label: Financial reports
+---
+
 # 2024 financial report (1st-term)
 
 <div class="table-wrapper" style="overflow-x: auto;">

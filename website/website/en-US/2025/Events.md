@@ -1,4 +1,8 @@
-# 2025 activities (2nd-term)
+---
+sidebar_label: Events
+---
+
+# 2025 events (2nd-term)
 
 ## 2025-12-29：2025年第30次社群聚
 

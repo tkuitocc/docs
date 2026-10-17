@@ -1,4 +1,8 @@
-# 2026 Activities (3rd-term)
+---
+sidebar_label: Events
+---
+
+# 2026 events (3rd-term)
 
 ## 2026-06-22：2026年第2次社群大會
 

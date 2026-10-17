@@ -1,3 +1,7 @@
+---
+sidebar_label: News
+---
+
 # 2026 news (3rd-term)
 
 ## 第3屆（2026年度）理監事異動 - Tang Yu

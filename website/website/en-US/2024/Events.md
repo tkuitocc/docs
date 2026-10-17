@@ -1,4 +1,8 @@
-# 2024 activities (1st-term)
+---
+sidebar_label: Events
+---
+
+# 2024 events (1st-term)
 
 ## 2024-12-25：社群聚暫停公告
 

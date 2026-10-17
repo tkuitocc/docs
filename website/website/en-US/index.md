@@ -1,3 +1,7 @@
+---
+sidebar_label: en | English
+---
+
 # Tamkang University Information Technology and Open Culture Community
 
 ## About us

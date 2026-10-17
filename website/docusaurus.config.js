@@ -62,6 +62,7 @@ const config = {
                     path: 'docs',
                     routeBasePath: '/docs',
                     sidebarPath: "./sidebars.js",
+                    numberPrefixParser: false,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl: "https://github.com/tkuitocc/docs/blob/main/website/",
@@ -90,6 +91,7 @@ const config = {
                 path: 'website',
                 routeBasePath: '/',
                 sidebarPath: './sidebars.js',
+                numberPrefixParser: false,
                 editUrl: "https://github.com/tkuitocc/docs/blob/main/website/",
             },
         ],
