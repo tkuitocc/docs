@@ -1,0 +1,94 @@
+{%- assign bcp_47_lang_tag = "en" -%}
+{%- assign lang_tag_root = "/" -%}
+{%- assign blog_name = "News.md" -%}
+{%- assign html_title_suffix = "Tamkang University Information Technology and Open Culture Community" -%}
+{%- assign google_site_verification = "17CXQL1ScZ-nT6dlGeOGWH0Ov3ahomSWHbQKym9Ydfk" -%}
+{%- assign copyright_footer = "Except where otherwise noted, the content of this site is licensed under a Creative Commons Zero v1.0 Universal license." -%}
+{%- if page.name == "index.md" -%}
+    {%- assign type = "directory" -%}
+{%- else -%}
+    {%- assign type = "article" -%}
+{%- endif -%}
+{%- assign relative_path = page.path | remove_first: "docs/" -%}
+{%- assign path_parts = relative_path | split: "/" -%}
+{%- if path_parts.size > 1 -%}
+    {%- assign lang_tag_dir = path_parts[0] -%}
+    {%- assign lang_tag_root = "/"
+        | append: lang_tag_dir
+        | append: "/"
+    -%}
+    {%- assign bcp_47_lang_tag = lang_tag_dir -%}
+    {%- case lang_tag_dir -%}
+    {%- when "zh-Hant-TW" -%}
+        {%- assign blog_name = "最新消息.md" -%}
+        {%- assign html_title_suffix = "TKUITOCC 淡江大學資訊科技及開放文化社群" -%}
+        {%- assign copyright_footer = "除非另有註明，否則本站的全部文字內容均在Creative Commons Zero v1.0 Universal授權條款下提供。" -%}
+    {%- endcase -%}
+    {%- if page.name == blog_name -%}
+        {%- assign type = "blog" -%}
+    {%- endif -%}
+{%- endif -%}
+{%- if
+    page.url == "/"
+    or page.url == lang_tag_root
+    or page.path == "index.html"
+    or page.path == "index.md"
+    or page.title == nil
+    or page.title == ""
+-%}
+    {%- assign html_title = html_title_suffix -%}
+{%- else -%}
+    {%- assign html_title = page.title
+        | append: " – "
+        | append: html_title_suffix
+    -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{ bcp_47_lang_tag }}" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="index, follow" />
+<meta name="google-site-verification" content="{{ google_site_verification }}" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="theme-color" content="#333333" />
+<title>{{ html_title }}</title>
+<link rel="icon" href="{{ '/favicon.png' | relative_url }}">
+<link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/" />
+<link rel="preload" as="style" type="text/css" href="{{ '/resources/site.styles/styles.css' | relative_url }}" />
+<link rel="preload" as="style" type="text/css" href="{{ '/resources/wikimedia.wikitable/styles.css' | relative_url }}" />
+<link rel="preload" as="style" type="text/css" href="{{ '/resources/wikimedia.codex/dist/cdx-button.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/resources/site.styles/styles.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/resources/wikimedia.wikitable/styles.css' | relative_url }}" />
+<link rel="stylesheet" href="{{ '/resources/wikimedia.codex/dist/cdx-button.css' | relative_url }}" />
+</head>
+<body class="type-{{ type }}">
+<header class="site-header">
+<div class="site-logo">
+<a class="site-logo-link" href="{{ lang_tag_root | relative_url }}"><!--
+--><img class="site-logo-link-image" alt="TKUITOCC" src="{{ '/resources/assets/TKUITOCC_logo_path.svg' | relative_url }}"><!--
+--><span class="site-logo-link-text">TKUITOCC</span><!--
+--></a>
+</div>
+<div class="site-header-nav"></div>
+</header>
+<main class="site-main">
+<header class="site-body-header">
+<h1 id="firstHeading" class="site-first-heading">{{ page.title }}</h1>
+</header>
+<div class="site-content">
+{%- if content contains "</h1>" -%}
+    {%- assign content_parts = content | split: "</h1>" -%}
+    {%- for part in content_parts offset: 1 -%}
+        {{ part }}{%- if forloop.last == false -%}</h1>{%- endif -%}
+    {%- endfor -%}
+{%- else -%}
+    {{ content }}
+{%- endif -%}
+</div>
+</main>
+<footer class="site-footer">
+<p>{{ copyright_footer }}</p>
+</footer>
+</body>
+</html>
