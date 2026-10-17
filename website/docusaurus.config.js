@@ -171,7 +171,7 @@ const config = {
                             },
                             {
                                 label: "Dauphin iOS應用程式",
-                                to: "https://testflight.apple.com/join/D3K3B9pX",
+                                to: "https://tkuitocc.github.io/dauphin-ios",
                             },
                         ],
                     },
