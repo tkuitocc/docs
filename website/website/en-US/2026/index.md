@@ -1,6 +1,6 @@
 # 2026 (3rd-term)
 
-* [News](News)
-* [Events](Events)
-* [Members](Members)
-* [Financial reports](Financial_reports)
+* [News](/en-US/2026/News)
+* [Events](/en-US/2026/Events)
+* [Members](/en-US/2026/Members)
+* [Financial reports](/en-US/2026/Financial_reports)

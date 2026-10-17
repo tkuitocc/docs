@@ -30,6 +30,7 @@ const config = {
     onBrokenLinks: "throw",
 
     markdown: {
+        format: 'detect',
         mermaid: true,
         hooks: {
             onBrokenMarkdownLinks: "warn",
@@ -58,21 +59,21 @@ const config = {
             ({
                 docs: {
                     id: 'docs',
-                    path: '/docs',
+                    path: 'docs',
                     routeBasePath: '/docs',
-                    sidebarPath: "./sidebar_docs.js",
+                    sidebarPath: "./sidebars.js",
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: "https://github.com/tkuitocc/docs/blob/main/",
+                    editUrl: "https://github.com/tkuitocc/docs/blob/main/website/",
                 },
                 blog: {
                     id: 'blog',
-                    path: '/blog',
+                    path: 'blog',
                     routeBasePath: '/blog',
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: "https://github.com/tkuitocc/docs/blob/main/",
+                    editUrl: "https://github.com/tkuitocc/docs/blob/main/website/",
                 },
                 theme: {
                     customCss: "./src/css/custom.css",
@@ -86,10 +87,10 @@ const config = {
             '@docusaurus/plugin-content-docs',
             {
                 id: 'website',
-                path: '/website',
+                path: 'website',
                 routeBasePath: '/',
-                sidebarPath: './sidebar_website.js',
-                editUrl: "https://github.com/tkuitocc/docs/blob/main/",
+                sidebarPath: './sidebars.js',
+                editUrl: "https://github.com/tkuitocc/docs/blob/main/website/",
             },
         ],
     ],
@@ -107,28 +108,31 @@ const config = {
                 },
                 items: [
                     {
-                        href: "https://tkuitocc.github.io/",
+                        type: "docSidebar",
+                        sidebarId: "websiteSidebar",
+                        docsPluginId: 'website', 
                         label: "官方網站",
                         position: "left",
                     },
                     {
                         type: "docSidebar",
-                        sidebarId: "tutorialSidebar",
-                        position: "left",
+                        sidebarId: "docsSidebar",
+                        docsPluginId: 'docs', 
                         label: "說明文件",
+                        position: "left",
                     },
                     {
-                        href: "https://tkuitocc.github.io/blog",
+                        href: "/blog",
                         label: "部落格",
                         position: "left",
                     },
                     {
-                        href: "https://tkuitocc.github.io/docs/project/status",
+                        href: "/docs/project/status",
                         label: "專案狀態",
                         position: "left",
                     },
                     {
-                        href: "https://github.com/tkuitocc/docs",
+                        href: "https://github.com/tkuitocc/tkuitocc.github.io",
                         label: "GitHub",
                         position: "right",
                     },
@@ -141,15 +145,15 @@ const config = {
                         items: [
                             {
                                 label: "官方網站",
-                                to: "https://tkuitocc.github.io/docs/",
+                                to: "/",
                             },
                             {
                                 label: "說明文件",
-                                to: "https://tkuitocc.github.io/docs/intro",
+                                to: "/docs",
                             },
                             {
                                 label: "部落格",
-                                to: "https://tkuitocc.github.io/docs/blog/",
+                                to: "/blog",
                             },
                             {
                                 label: "GitHub",
