@@ -158,6 +158,10 @@ const config = {
                                 to: "/blog",
                             },
                             {
+                                label: "專案狀態",
+                                to: "/docs/project/status"
+                            },
+                            {
                                 label: "GitHub",
                                 to: "https://github.com/tkuitocc",
                             },
