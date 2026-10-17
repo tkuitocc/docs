@@ -45,6 +45,7 @@ sidebar_label: en | English
 
 ## Recent projects
 
+* Tamkang Campus Pass "Dauphin" Android application
 * Tamkang Campus Pass "Dauphin" iOS application
 * Tamkang Campus Pass "iCampusPass" Android application
 * 模擬排課系統「AZQUERYSUCKS」
