@@ -18,14 +18,14 @@ const config = {
     url: "https://tkuitocc.github.io",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: "/docs/",
+    baseUrl: "/",
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: "tkuitocc", // Usually your GitHub org/user name.
     trailingSlash: false,
-    projectName: "docs", // Usually your repo name.
-    deploymentBranch:"gh-pages",
+    projectName: "tkuitocc.github.io", // Usually your repo name.
+    deploymentBranch: "gh-pages",
 
     onBrokenLinks: "throw",
 
@@ -57,13 +57,18 @@ const config = {
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
-                    sidebarPath: "./sidebars.js",
-                    routeBasePath: '/',
+                    id: 'docs',
+                    path: '/docs',
+                    routeBasePath: '/docs',
+                    sidebarPath: "./sidebar_docs.js",
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl: "https://github.com/tkuitocc/docs/blob/main/",
                 },
                 blog: {
+                    id: 'blog',
+                    path: '/blog',
+                    routeBasePath: '/blog',
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
@@ -73,6 +78,19 @@ const config = {
                     customCss: "./src/css/custom.css",
                 },
             }),
+        ],
+    ],
+
+    plugins: [
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'website',
+                path: '/website',
+                routeBasePath: '/',
+                sidebarPath: './sidebar_website.js',
+                editUrl: "https://github.com/tkuitocc/docs/blob/main/",
+            },
         ],
     ],
 
@@ -89,7 +107,7 @@ const config = {
                 },
                 items: [
                     {
-                        to: "/",
+                        href: "https://tkuitocc.github.io/",
                         label: "官方網站",
                         position: "left",
                     },
@@ -100,12 +118,12 @@ const config = {
                         label: "說明文件",
                     },
                     {
-                        to: "/blog",
+                        href: "https://tkuitocc.github.io/blog",
                         label: "部落格",
                         position: "left",
                     },
                     {
-                        to: "/docs/project/status",
+                        href: "https://tkuitocc.github.io/docs/project/status",
                         label: "專案狀態",
                         position: "left",
                     },
@@ -123,15 +141,15 @@ const config = {
                         items: [
                             {
                                 label: "官方網站",
-                                to: "/docs/",
+                                to: "https://tkuitocc.github.io/docs/",
                             },
                             {
                                 label: "說明文件",
-                                to: "/docs/intro",
+                                to: "https://tkuitocc.github.io/docs/intro",
                             },
                             {
                                 label: "部落格",
-                                to: "/docs/blog/",
+                                to: "https://tkuitocc.github.io/docs/blog/",
                             },
                             {
                                 label: "GitHub",
